@@ -1,6 +1,8 @@
 <?php
 
 return [
+    'add.title' => 'Add new category',
+    'edit.title' => 'Edit category',
     'actions' => 'Actions',
     'add' => 'Add',
     'delete' => 'Delete',

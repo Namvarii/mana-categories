@@ -43,7 +43,7 @@ class RouteServiceProvider extends ServiceProvider
 
         # Publishes
         $this->publishes([
-            __DIR__.'/../resources/views' => resource_path('views/vendor/mana-categories'),
+            __DIR__.'/../resources/views' => resource_path('views/vendor/admin/mana-categories'),
         ], 'categories');
 
         /*$this->publishes([
@@ -51,7 +51,7 @@ class RouteServiceProvider extends ServiceProvider
         ], 'categories');*/
 
         $this->publishes([
-            __DIR__.'/../resources/lang' => resource_path('lang/vendor/mana-categories'),
+            __DIR__.'/../resources/lang' => resource_path('lang/vendor/admin/mana-categories'),
         ], 'categories');
     }
 }
